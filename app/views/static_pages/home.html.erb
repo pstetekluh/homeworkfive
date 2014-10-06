@@ -1,0 +1,19 @@
+<!-- See Hartl Listing 5.2 -->
+<% provide(:title, 'Home') %>
+
+<div class="center hero-unit"> 
+  <h1>USMA CS450 HomeWork5 App</h1> 
+
+  <h2> 
+    This is the home page for the USMA CS450 HomeWork5 Application. 
+  </h2> 
+ <div>
+	<p>This application is directly
+	derived from the <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a> 
+    sample application.</p>
+ </div>
+  	
+  <%= link_to "Sign up now!", 'signup', class: "btn btn-large btn-primary" %> 
+</div> 
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>

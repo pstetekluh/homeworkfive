@@ -1,0 +1,28 @@
+== README
+
+This is the USMA CS450 Sample Application for In-Class Exercises.
+
+== Setup your development and test environment
+* After forking to your GitHub account and cloneing your fork to your development
+and test workstation, you will need to configure the application for your
+development environment.
+ bundle install --without production
+
+* Then reconfigure the database with Faker data:
+ bundle exec rake db:reset
+ bundle exec rake db:populate
+
+== Deployment into production environment
+* You will need to setup your own instance of a heroku environment.  
+ heroku create --stack cedar
+* Deploy to your production environment on the heroku servers using:
+ git push heroku master
+* Reconfigure the PostgreSQL database with Faker data:
+ heroku run:detached rake db:reset
+ heroku run:detached rake db:populate
+ 
+* Then you can view your application with
+ heroku open
+
+
+
