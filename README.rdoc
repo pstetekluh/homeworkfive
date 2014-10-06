@@ -1,6 +1,6 @@
 == README
 
-This is the USMA CS450 Sample Application for HomeWork5.  It implements the Hartl Sample App from the 2d edition with modifications for Ruby on Rails 4.x, newer version of Capybara, and newer version of SASS.
+This is the USMA CS450 Sample Application for HomeWork5.  It implements the Hartl Sample App from the 2d edition up to the end of Chapter 9.  The code in this repository has modifications for Ruby on Rails 4.x, newer version of Capybara, and newer version of SASS.
 
 == Setup your development and test environment
 * After forking to your GitHub account and cloneing your fork to your development
