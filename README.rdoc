@@ -24,5 +24,5 @@ development environment.
 * Then you can view your application with
  heroku open
 
-
+Ali Cleinmark
 
