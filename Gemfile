@@ -14,6 +14,7 @@ group :development, :test do
 	gem 'rspec-rails'
 	gem 'annotate'
 	gem 'ruby-beautify'
+	gem 'rspec-its'
 end
 
 group :test do
